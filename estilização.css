@@ -1,0 +1,57 @@
+
+#titulo {color: rgb(255, 0, 0);
+text-align: center;}
+#anime{text-align:left;
+color: black;
+}
+#filmes{color: black;}
+#SÉRIES{color: black;}
+
+h2{color: rgb(17, 13, 13);}
+nav ul{
+display: flex;
+justify-content:space-around;
+}
+.van{ background: -webkit-gradient(linear, left top, left bottom, from(#CCCCCC), to(#000000));
+
+}
+html{
+   background: -webkit-gradient(linear, left top, left bottom, from(#07287cab) ,to(#551a03d0));
+   background: -moz-linear-gradient(top, #000000, #000000);           
+}
+
+
+
+
+
+#aa-hover{
+width: 160px;
+font-size: 16px;
+font-weight: 400;
+ color: #fff;
+cursor: pointer; margin: 20px;
+height: 55px;
+text-align:center; border: none;
+background-size: 300% 100%;
+border-radius: 50px;
+ moz-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+     transition: all .4s ease-in-out;
+    }
+    
+    #aa-hover:hover{ background-position: 100s 0;
+    moz-transition: all .4s ease-in-out; -o-transition: all .4s wase-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;}
+    #aa-hover:focus { outline: none;
+    }
+    #aa-hover.bn18{
+    background-image: linear-gradient(
+    
+    to right,
+    #3055DE,
+    #0AA7FF,
+    #1B2E97,
+    #021373
+    );
+    box-shadow: 4px 15px 0 rgba(49, 196, 190, 0.75);}
